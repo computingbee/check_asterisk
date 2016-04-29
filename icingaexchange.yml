@@ -1,4 +1,4 @@
-name: check_overlandstorage
+name: check_asterisk
 description: "file:///README.md"
 url: "https://github.com/computingbee/check_asterisk"
 tags: Asterisk PRI DAHDI
