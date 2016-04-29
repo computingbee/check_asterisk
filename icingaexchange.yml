@@ -1,0 +1,23 @@
+name: check_overlandstorage
+description: "file:///README.md"
+url: "https://github.com/computingbee/check_asterisk"
+tags: Asterisk PRI DAHDI
+vendor: Asterisk PRI DAHDI
+target: Hardware
+type: Plugin
+license: gplv2
+releases: 
+  - 
+    name: 1.0
+    description: "1.0 Release - Passive check for DAHDI and PRI card status"
+    files: 
+      - 
+        name: check_asterisk_dadhi.py
+        url: "file:///check_asterisk_dahdi.py"
+        description: "First release"
+        checksum: 05374c02f4d2c877d6238322a5067d13
+      - 
+        name: check_asterisk_pri.py
+        url: "file:///check_asterisk_pri.py"
+        description: "First release"
+        checksum: 4f61c92e959d069f1385107563fc1e16
