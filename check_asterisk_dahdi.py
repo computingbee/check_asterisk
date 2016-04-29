@@ -1,4 +1,15 @@
 #!/usr/bin/python
+
+# Script:       check_asterisk_dahdi.py                                         
+# Author:       Haris Buchal blog.axiomdynamics.com                             
+# Description:  Plugin for Nagios (and forks) to check status for DAHDI cards
+#		on Asterisk server. It uses dahdi_scan command and parses the  
+#		output for status on each card found. It requires python 2.6+.
+#		THIS SOFTWARE COMES WITH ABSOLUTELY NO WARRANTY
+# License:      GPLv2
+# Version:	1.0	                                                          
+# 20160429      Created plugin                   
+
 import subprocess
 import sys
 import os
