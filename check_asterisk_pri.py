@@ -28,7 +28,7 @@ if not (os.path.isfile(CMD) and os.access(CMD,os.X_OK)):
 	print "Unknown: ",CMD," not found"
 	sys.exit(STATE_UNKNOWN)
 
-cmd = subprocess.Popen([CMD, CMD_ARG1, CMD_ARG1_VAL], 
+cmd = subprocess.Popen(['sudo',CMD, CMD_ARG1, CMD_ARG1_VAL], 
 	stdout=subprocess.PIPE, 
 	stderr=subprocess.PIPE)
 try:
